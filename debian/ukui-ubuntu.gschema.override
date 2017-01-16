@@ -1,7 +1,7 @@
-[org.kylin.background]
+[org.ukui.background]
 picture-filename='/usr/share/backgrounds/warty-final-ubuntu.png'
 
-[org.kylin.interface]
+[org.ukui.interface]
 icon-theme='ubuntu-mono-dark'
 gtk-theme='Ambiance'
 font-name='Ubuntu 10'

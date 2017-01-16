@@ -1,12 +1,8 @@
 Source: ukui-desktop-environment
 Section: x11
 Priority: optional
-Maintainer:  Kylin Team <ukui@kylinos.cn>
-Uploaders: Mike Gabriel <sunweaver@debian.org>,
-           John Paul Adrian Glaubitz <glaubitz@physik.fu-berlin.de>,
-           Stefano Karapetsas <stefano@karapetsas.com>,
-           Vangelis Mouhtsis <vangelis@gnugr.org>,
-           lijianfeng <lijianfeng@kylinos.cn>,
+Maintainer: Kylin Team <ukui@kylinos.cn>
+Uploaders: lijianfeng <lijianfeng@kylinos.cn>,
 Build-Depends: debhelper (>= 9),
                lsb-release,
 Standards-Version: 3.9.8
@@ -18,17 +14,17 @@ Depends: caja (>= 1.16.0),
          gvfs-backends,
          gvfs-bin,
          marco (>= 1.16.0),
-         kylin-backgrounds (>= 1.16.0),
-         kylin-control-center (>= 1.16.0),
-         kylin-desktop (>= 1.16.0),
-         kylin-menus (>= 1.16.0),
+         ukui-backgrounds (>= 1.16.0),
+         ukui-control-center (>= 1.16.0),
+         ukui-desktop (>= 1.16.0),
+         ukui-menus (>= 1.16.0),
          notification-daemon,
-         kylin-panel (>= 1.16.0),
-         kylin-polkit (>= 1.16.0),
-         kylin-session-manager (>= 1.16.0),
-         kylin-settings-daemon (>= 1.16.0),
+         ukui-panel (>= 1.16.0),
+         ukui-polkit (>= 1.16.0),
+         ukui-session-manager (>= 1.16.0),
+         ukui-settings-daemon (>= 1.16.0),
          gnome-terminal (>= 1.16.0),
-         kylin-theme,
+         ukui-themes,
          ${misc:Depends},
 Breaks: ukui-desktop-environment (<< 1.8.0),
 Conflicts: mate-conf,
@@ -59,7 +55,7 @@ Description: UKUI Desktop Environment (essential components, metapackage)
  .
  This package depends on a very basic set of programs that are necessary to
  start a UKUI desktop environment session. The set of programs includes the
- the UKUI file manager (Peony), the KYLIN 
+ the UKUI file manager (Peony), the UKUI 
  control center and a limited set of other obligatory UKUI desktop components.
 
 Package: ukui-core
@@ -87,11 +83,11 @@ Recommends: evince,
             eog,
             ffmpegthumbnailer,
             galculator,
-            kylin-media (>= 1.16.0),
+            ukui-media (>= 1.16.0),
             notification-daemon,
-            kylin-power-manager (>= 1.16.0),
-            kylin-screensaver (>= 1.16.0),
-            kylin-utils (>= 1.16.0),
+            ukui-power-manager (>= 1.16.0),
+            ukui-screensaver (>= 1.16.0),
+            ukui-utils (>= 1.16.0),
             gedit,
 Suggests: mail-reader | icedove,
           network-manager-gnome,
@@ -134,7 +130,7 @@ Architecture: all
 Depends: ukui-desktop-environment-extras (= ${binary:Version}),
          ${misc:Depends},
 Description: UKUI Desktop Environment (extra components, dummy package)
- The UKUI Desktop Environment is the continuation of GNOME 2. It provides an
+ The UKUI Desktop Environment is the continuation of MATE. It provides an
  intuitive and attractive desktop environment using traditional metaphors for
  Linux and other Unix-like operating systems.
  .
