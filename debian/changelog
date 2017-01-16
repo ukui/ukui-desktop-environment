@@ -1,3 +1,9 @@
+ukui-desktop-environment (1.16.0+1) yakkety; urgency=medium
+
+  * Fork from mate-desktop-environment, rename to ukui-desktop-environment. 
+
+ -- lijianfeng <lijianfeng@kylinos.cn>  Mon, 16 Jan 2017 11:55:03 +0800
+
 mate-desktop-environment (1.16.0+1) unstable; urgency=medium
 
   [ Martin Wimpress ]
