@@ -1,0 +1,17 @@
+[org.mate.background]
+picture-filename='/usr/share/backgrounds/warty-final-ubuntu.png'
+
+[org.mate.interface]
+icon-theme='ubuntu-mono-dark'
+gtk-theme='Ambiance'
+font-name='Ubuntu 10'
+document-font-name='Ubuntu 10'
+monospace-font-name='Ubuntu Mono 12'
+
+[org.mate.Marco.general]
+theme='Ambiance'
+titlebar-font='Ubuntu Bold 10'
+
+[org.mate.NotificationDaemon]
+theme='slider'
+

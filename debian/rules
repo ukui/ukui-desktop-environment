@@ -1,0 +1,21 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@
+
+override_dh_install:
+	dh_install
+	# GSettings overrides for Ubuntu
+ifeq ($(shell dpkg-vendor --is Ubuntu && echo yes),yes)
+	dh_install -pmate-desktop-environment-core debian/mate-ubuntu.gschema.override /usr/share/glib-2.0/schemas/
+endif
+	# GSettings overrides for Debian
+ifeq ($(shell dpkg-vendor --is Debian && echo yes),yes)
+	dh_install -pmate-desktop-environment-core debian/mate-debian.gschema.override /usr/share/glib-2.0/schemas/
+endif
+ifeq ($(shell dpkg-vendor --is Debian && echo yes),yes)
+ifeq ($(shell lsb_release -cs),wheezy)
+	# this adds video thumnbails support, because ffmpegthumbnailer 2.0.8 is not in wheezy
+	dh_install -pmate-desktop-environment debian/mate-ffmpegthumbnailer.thumbnailer /usr/share/thumbnailers/
+endif
+endif
