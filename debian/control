@@ -10,10 +10,10 @@ Homepage: http://www.ukui.org/
 
 Package: ukui-desktop-environment-core
 Architecture: all
-Depends: caja (>= 1.16.0),
+Depends: peony (>= 1.16.0),
          gvfs-backends,
          gvfs-bin,
-         marco (>= 1.16.0),
+         ukwm (>= 1.16.0),
          ukui-backgrounds (>= 1.16.0),
          ukui-control-center (>= 1.16.0),
          ukui-desktop (>= 1.16.0),
