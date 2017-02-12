@@ -1,3 +1,9 @@
+ukui-desktop-environment (1.0.0) zesty; urgency=medium
+
+  * New Release. 
+
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Sun, 12 Feb 2017 13:45:49 +0800
+
 ukui-desktop-environment (0.9.1) yakkety; urgency=medium
 
   * Debian/control:
