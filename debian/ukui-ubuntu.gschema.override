@@ -1,7 +1,7 @@
 [org.ukui.background]
 picture-filename='/usr/share/backgrounds/warty-final-ubuntu.png'
 
-[org.ukui.interface]
+[org.mate.interface]
 icon-theme='ubuntu-mono-dark'
 gtk-theme='Ambiance'
 font-name='Ubuntu 10'
@@ -11,3 +11,6 @@ monospace-font-name='Ubuntu Mono 12'
 [org.mate.Marco.general]
 theme='Ambiance'
 titlebar-font='Ubuntu Bold 10'
+
+[org.mate.panel]
+default-layout='ukui'

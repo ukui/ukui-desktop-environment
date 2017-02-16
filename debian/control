@@ -45,8 +45,8 @@ Description: UKUI Desktop Environment (essential components, metapackage)
  .
  This package depends on a very basic set of programs that are necessary to
  start a UKUI desktop environment session. The set of programs includes the
- the UKUI file manager (Peony), the UKUI 
- control center and a limited set of other obligatory UKUI desktop components.
+ the UKUI file manager (Peony), the UKUI control center and a limited set of 
+ other obligatory UKUI desktop components.
 
 Package: ukui-core
 Architecture: all
