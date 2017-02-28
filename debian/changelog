@@ -1,16 +1,10 @@
-ukui-desktop-environment (1.0.1) zesty; urgency=medium
+ukui-desktop-environment (1.0.0) zesty; urgency=medium
 
   * debian/control:
     + Drop ukui-core, ukui-desktop-environment-extra.
   * debian/rules:
     + Drop ukui-debian.gschema.override and ukui-ffmpegthumbnailer.thumbnailer
   * Remove some trailing whitespace in debian files.
-
- -- handsome_feng <jianfengli@ubuntukylin.com>  Tue, 28 Feb 2017 10:55:58 +0800
-
-ukui-desktop-environment (1.0.0) zesty; urgency=medium
-
-  * New Release.
 
  -- handsome_feng <jianfengli@ubuntukylin.com>  Sun, 12 Feb 2017 13:45:49 +0800
 
