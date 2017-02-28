@@ -1,4 +1,0 @@
-[Thumbnailer Entry]
-TryExec=ffmpegthumbnailer
-Exec=ffmpegthumbnailer -i %i -o %o -s %s -f
-MimeType=video/jpeg;video/mp4;video/mpeg;video/quicktime;video/x-ms-asf;video/x-ms-wm;video/x-ms-wmv;video/x-msvideo;video/x-flv;video/x-matroska;video/mp2t;video/3gpp;video/webm;video/x-ogm+ogg;

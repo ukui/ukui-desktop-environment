@@ -45,23 +45,9 @@ Description: UKUI Desktop Environment (essential components, metapackage)
  preserving a traditional desktop experience.
  .
  This package depends on a very basic set of programs that are necessary to
- start a UKUI desktop environment session. The set of programs includes the  
- UKUI file manager (Peony), the UKUI control center and a limited set of 
+ start a UKUI desktop environment session. The set of programs includes the
+ UKUI file manager (Peony), the UKUI control center and a limited set of
  other obligatory UKUI desktop components.
-
-Package: ukui-core
-Architecture: all
-Depends: ukui-desktop-environment-core (= ${binary:Version}),
-         ${misc:Depends},
-Description: UKUI Desktop Environment (essential components, dummy package)
- The UKUI Desktop Environment is the continuation of MATE. It provides an
- intuitive and attractive desktop environment using traditional metaphors for
- Linux and other Unix-like operating systems.
- .
- UKUI is under active development to add support for new technologies while
- preserving a traditional desktop experience.
- .
- This package (ukui-core) is a dummy package and can be safely removed.
 
 Package: ukui-desktop-environment
 Architecture: all
@@ -93,7 +79,6 @@ Description: UKUI Desktop Environment (metapackage)
  .
  This package installs the standard set of applications that are
  part of the official UKUI release.
- .
 
 Package: ukui-desktop-environment-extras
 Architecture: all
@@ -114,18 +99,3 @@ Description: UKUI Desktop Environment (extra components, metapackage)
  .
  This package installs an extra set of UKUI components that are
  also part of the official UKUI release.
-
-Package: ukui-desktop-environment-extra
-Architecture: all
-Depends: ukui-desktop-environment-extras (= ${binary:Version}),
-         ${misc:Depends},
-Description: UKUI Desktop Environment (extra components, dummy package)
- The UKUI Desktop Environment is the continuation of MATE. It provides an
- intuitive and attractive desktop environment using traditional metaphors for
- Linux and other Unix-like operating systems.
- .
- UKUI is under active development to add support for new technologies while
- preserving a traditional desktop experience.
- .
- This package (ukui-desktop-environment-extra) is a dummy package and can be
- safely removed.
