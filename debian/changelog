@@ -1,23 +1,5 @@
 ukui-desktop-environment (1.0.0) zesty; urgency=medium
 
-  * debian/control:
-    + Drop ukui-core, ukui-desktop-environment-extra.
-  * debian/rules:
-    + Drop ukui-debian.gschema.override and ukui-ffmpegthumbnailer.thumbnailer
-  * Remove some trailing whitespace in debian files.
+  * Initial release. (LP:#1663477)
 
- -- handsome_feng <jianfengli@ubuntukylin.com>  Sun, 12 Feb 2017 13:45:49 +0800
-
-ukui-desktop-environment (0.9.1) yakkety; urgency=medium
-
-  * Debian/control:
-    + Add ukui-menu.
-    + Drop mozo.
-
- -- handsome_feng <jianfengli@ubuntukylin.com>  Fri, 10 Feb 2017 13:04:59 +0800
-
-ukui-desktop-environment (0.9.0) yakkety; urgency=medium
-
-  * Fork from mate-desktop-environment, rename to ukui-desktop-environment.
-
- -- handsome_feng <jianfengli@ubuntukylin.com>  Mon, 16 Jan 2017 11:55:03 +0800
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Mon, 06 Mar 2017 10:17:34 +0800

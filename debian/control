@@ -1,7 +1,7 @@
 Source: ukui-desktop-environment
 Section: x11
 Priority: optional
-Maintainer: Kylin Team <ukui@kylinos.cn>
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Uploaders: lijianfeng <lijianfeng@kylinos.cn>,
 Build-Depends: debhelper (>= 9),
                lsb-release,
