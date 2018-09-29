@@ -2,9 +2,15 @@
 font-name='Ubuntu 10'
 document-font-name='Ubuntu 10'
 monospace-font-name='Ubuntu Mono 12'
+gtk-theme='ukui-black'
+icon-theme='ukui-icon-theme'
 
-[org.mate.Marco.general]
-titlebar-font='Ubuntu Bold 10'
+[org.gnome.desktop.wm.preferences]
+mouse-button-modifier='<Alt>'
+theme='ukui-black'
+titlebar-font='Ubuntu Medium 11'
+button-layout=':minimize,maximize,close'
 
-[org.mate.panel]
-default-layout='ukui'
+[org.gnome.desktop.wm.keybindings]
+show-desktop=['<Control><Alt>d','<Super>d']
+minimize=['<Alt>F9']

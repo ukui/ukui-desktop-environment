@@ -1,5 +1,36 @@
+ukui-desktop-environment (1.2.0) cosmic; urgency=medium
+
+  * Drop ubuntu-wallpapers.
+  * Add ubuntukylin-wallpapers.
+  * Change default theme to ukui-black.
+  * Bump standards-version to 4.2.1.
+
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Sat, 29 Sep 2018 16:09:58 +0800
+
+ukui-desktop-environment (1.1.1) bionic; urgency=medium
+
+  * Drop mate-settings-daemon, mate-media, mate-power-manager, marco.
+  * Add ukui-settings-daemon, ukui-media, ukui-power-manager, ukwm.
+
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Sun, 01 Apr 2018 15:16:50 +0800
+
+ukui-desktop-environment (1.1.0) bionic; urgency=medium
+
+  * Drop mate-panel, mate-menus, mate-utils.
+  * Add ukui-panel, ukui-menus, gnome-screenshot.
+
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Wed, 28 Feb 2018 09:26:08 +0800
+
+ukui-desktop-environment (1.0.1) artful; urgency=medium
+
+  * Drop gnome-terminal, evince, file-roller, eog, galculator, gedit.
+  * Add mate-notification-daemon, mate-terminal, atril, engrampa,
+    eom, mate-calc, pluma.
+
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Mon, 26 Jun 2017 16:24:39 +0800
+
 ukui-desktop-environment (1.0.0) zesty; urgency=medium
 
-  * Initial release. (LP:#1663477)
+  * Initial release. (LP: #1663477)
 
  -- handsome_feng <jianfengli@ubuntukylin.com>  Mon, 06 Mar 2017 10:17:34 +0800

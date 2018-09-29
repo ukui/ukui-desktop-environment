@@ -2,11 +2,13 @@ Source: ukui-desktop-environment
 Section: x11
 Priority: optional
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-Uploaders: lijianfeng <lijianfeng@kylinos.cn>,
-Build-Depends: debhelper (>= 9),
+Uploaders: handsome_feng <jianfengli@ubuntukylin.com>,
+Build-Depends: debhelper (>= 11),
                lsb-release,
-Standards-Version: 3.9.8
+Standards-Version: 4.2.1
 Homepage: http://www.ukui.org/
+Vcs-Git: https://github.com/ukui/ukui-desktop-environment.git
+Vcs-Browser: https://github.com/ukui/ukui-desktop-environment
 
 Package: ukui-desktop-environment-core
 Architecture: all
@@ -17,25 +19,16 @@ Depends: peony,
          ukui-session-manager,
          gvfs-backends,
          gvfs-bin,
-         marco,
-         mate-panel,
+         ukwm,
+         ukui-panel,
          mate-desktop,
-         mate-menus,
-         notification-daemon,
+         ukui-menus,
+         mate-notification-daemon | notification-daemon,
          mate-polkit,
-         mate-settings-daemon,
-         gnome-terminal,
-         ubuntukylin-theme (>= 1.7.0),
+         ukui-settings-daemon,
+         mate-terminal,
+         ubuntukylin-theme (>= 1.6.2),
          ${misc:Depends},
-Conflicts: mate-conf,
-           mate-conf-editor,
-           mate-dialogs,
-           mate-dialogs-common,
-           mate-dialogs-dbg,
-           mate-doc-utils,
-           mate-doc-utils-gnome,
-           mate-keyring,
-           mate-gnome-main-menu-applet,
 Description: UKUI Desktop Environment (essential components, metapackage)
  The UKUI Desktop Environment is the continuation of MATE. It provides an
  intuitive and attractive desktop environment using traditional metaphors for
@@ -54,21 +47,22 @@ Architecture: all
 Depends: ukui-desktop-environment-core (= ${binary:Version}),
          ${misc:Depends},
 Provides: ukui,
-Recommends: evince,
-            desktop-base | ubuntu-wallpapers,
-            file-roller,
-            eog,
+Recommends: atril,
+            desktop-base,
+            ubuntukylin-wallpapers,
+            engrampa,
+            eom,
             ffmpegthumbnailer,
-            galculator,
-            mate-media,
-            notification-daemon,
-            mate-power-manager,
+            mate-calc,
+            ukui-media,
+            mate-notification-daemon | notification-daemon,
+            ukui-power-manager,
             ukui-screensaver,
-            mate-utils,
-            gedit,
-Suggests: mail-reader | icedove,
+            gnome-screenshot,
+            pluma,
+Suggests: mail-reader | thunderbird,
           network-manager-gnome,
-          x-www-browser | iceweasel,
+          x-www-browser | firefox,
 Description: UKUI Desktop Environment (metapackage)
  The UKUI Desktop Environment is the continuation of MATE. It provides an
  intuitive and attractive desktop environment using traditional metaphors for
