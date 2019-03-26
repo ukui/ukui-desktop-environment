@@ -1,3 +1,13 @@
+ukui-desktop-environment (1.2.1) disco; urgency=medium
+
+  * Drop notification-daemon.
+  * Drop mate-polkit.
+  * Add kylin-nm.
+  * Bump standars-version to 4.3.0, compat level to 12.
+  * Set NotificationDeamon theme to slide.
+
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Mon, 18 Mar 2019 10:20:59 +0800
+
 ukui-desktop-environment (1.2.0) cosmic; urgency=medium
 
   * Drop ubuntu-wallpapers.

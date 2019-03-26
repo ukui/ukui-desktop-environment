@@ -14,3 +14,9 @@ button-layout=':minimize,maximize,close'
 [org.gnome.desktop.wm.keybindings]
 show-desktop=['<Control><Alt>d','<Super>d']
 minimize=['<Alt>F9']
+
+[org.ukui.ukwm]
+edge-tiling=true
+
+[org.mate.NotificationDaemon]
+theme='slide'

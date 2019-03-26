@@ -3,9 +3,9 @@ Section: x11
 Priority: optional
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Uploaders: handsome_feng <jianfengli@ubuntukylin.com>,
-Build-Depends: debhelper (>= 11),
+Build-Depends: debhelper (>= 12),
                lsb-release,
-Standards-Version: 4.2.1
+Standards-Version: 4.3.0
 Homepage: http://www.ukui.org/
 Vcs-Git: https://github.com/ukui/ukui-desktop-environment.git
 Vcs-Browser: https://github.com/ukui/ukui-desktop-environment
@@ -23,8 +23,8 @@ Depends: peony,
          ukui-panel,
          mate-desktop,
          ukui-menus,
-         mate-notification-daemon | notification-daemon,
-         mate-polkit,
+         mate-notification-daemon,
+         ukui-polkit,
          ukui-settings-daemon,
          mate-terminal,
          ubuntukylin-theme (>= 1.6.2),
@@ -55,7 +55,7 @@ Recommends: atril,
             ffmpegthumbnailer,
             mate-calc,
             ukui-media,
-            mate-notification-daemon | notification-daemon,
+            mate-notification-daemon,
             ukui-power-manager,
             ukui-screensaver,
             gnome-screenshot,
@@ -63,6 +63,7 @@ Recommends: atril,
 Suggests: mail-reader | thunderbird,
           network-manager-gnome,
           x-www-browser | firefox,
+          kylin-nm,
 Description: UKUI Desktop Environment (metapackage)
  The UKUI Desktop Environment is the continuation of MATE. It provides an
  intuitive and attractive desktop environment using traditional metaphors for
