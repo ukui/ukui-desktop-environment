@@ -1,14 +1,14 @@
 [org.mate.interface]
-font-name='Ubuntu 10'
-document-font-name='Ubuntu 10'
-monospace-font-name='Ubuntu Mono 12'
-gtk-theme='ukui-black'
-icon-theme='ukui-icon-theme'
+font-name='Noto Sans CJK SC 14'
+document-font-name='Noto Sans CJK SC 14'
+monospace-font-name='DejaVu sans Mono 14'
+gtk-theme='ukui-white'
+icon-theme='ukui-icon-theme-default'
 
 [org.gnome.desktop.wm.preferences]
 mouse-button-modifier='<Alt>'
-theme='ukui-black'
-titlebar-font='Ubuntu Medium 11'
+theme='ukui-white'
+titlebar-font='Noto Sans CJK SC 14'
 button-layout=':minimize,maximize,close'
 
 [org.gnome.desktop.wm.keybindings]
@@ -20,3 +20,6 @@ edge-tiling=true
 
 [org.mate.NotificationDaemon]
 theme='slide'
+
+[org.ukui.peony.desktop]
+font='Noto Sans CJK SC 14'

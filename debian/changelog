@@ -1,3 +1,14 @@
+ukui-desktop-environment (2.0.0) focal; urgency=medium
+
+  * Drop ukui-indicators and ukui-menus.
+  * Add ukui-sidebar.
+  * Set the default font to 'Noto Sans CJK SC'.
+  * debian/control:
+    - Bump standards-vertion to 4.5.0.
+    - Use debhelper-compat instead of debhelper.
+
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Mon, 23 Mar 2020 10:43:33 +0800
+
 ukui-desktop-environment (1.2.1) disco; urgency=medium
 
   * Drop notification-daemon.

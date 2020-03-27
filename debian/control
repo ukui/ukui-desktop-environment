@@ -3,9 +3,10 @@ Section: x11
 Priority: optional
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Uploaders: handsome_feng <jianfengli@ubuntukylin.com>,
-Build-Depends: debhelper (>= 12),
+Build-Depends: debhelper-compat (= 12),
                lsb-release,
-Standards-Version: 4.3.0
+Standards-Version: 4.5.0
+Rules-Requires-Root: no
 Homepage: http://www.ukui.org/
 Vcs-Git: https://github.com/ukui/ukui-desktop-environment.git
 Vcs-Browser: https://github.com/ukui/ukui-desktop-environment
@@ -14,7 +15,7 @@ Package: ukui-desktop-environment-core
 Architecture: all
 Depends: peony,
          ukui-menu,
-         ukui-indicators,
+         ukui-sidebar,
          ukui-control-center,
          ukui-session-manager,
          gvfs-backends,
@@ -22,7 +23,6 @@ Depends: peony,
          ukwm,
          ukui-panel,
          mate-desktop,
-         ukui-menus,
          mate-notification-daemon,
          ukui-polkit,
          ukui-settings-daemon,
