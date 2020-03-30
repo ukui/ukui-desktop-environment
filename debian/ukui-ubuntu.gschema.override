@@ -1,14 +1,14 @@
 [org.mate.interface]
-font-name='Noto Sans CJK SC 14'
-document-font-name='Noto Sans CJK SC 14'
-monospace-font-name='DejaVu sans Mono 14'
+font-name='Noto Sans CJK SC 11'
+document-font-name='Noto Sans CJK SC 11'
+monospace-font-name='DejaVu sans Mono 11'
 gtk-theme='ukui-white'
 icon-theme='ukui-icon-theme-default'
 
 [org.gnome.desktop.wm.preferences]
 mouse-button-modifier='<Alt>'
 theme='ukui-white'
-titlebar-font='Noto Sans CJK SC 14'
+titlebar-font='Noto Sans CJK SC 11'
 button-layout=':minimize,maximize,close'
 
 [org.gnome.desktop.wm.keybindings]
@@ -22,4 +22,4 @@ edge-tiling=true
 theme='slide'
 
 [org.ukui.peony.desktop]
-font='Noto Sans CJK SC 14'
+font='Noto Sans CJK SC 11'

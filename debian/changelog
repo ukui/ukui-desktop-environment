@@ -1,3 +1,9 @@
+ukui-desktop-environment (2.0.1) focal; urgency=medium
+
+  * Change the default font size from 14 to 11.
+
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Mon, 30 Mar 2020 15:15:34 +0800
+
 ukui-desktop-environment (2.0.0) focal; urgency=medium
 
   * Drop ukui-indicators and ukui-menus.
