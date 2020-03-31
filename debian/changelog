@@ -1,3 +1,9 @@
+ukui-desktop-environment (2.0.2) focal; urgency=medium
+
+  * debian/control: add qt5-ukui-platformtheme to depends.
+
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Tue, 31 Mar 2020 20:34:10 +0800
+
 ukui-desktop-environment (2.0.1) focal; urgency=medium
 
   * Change the default font size from 14 to 11.
