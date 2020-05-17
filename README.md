@@ -1,6 +1,6 @@
 ## UKUI
 
-UKUI is a desktop environment for Linux and other Unix-like Distributions. It provides a simpler and more enjoyable experience for browsing, searching and managing your computer.
+UKUI is a desktop environment for Linux distributions and other UNIX-like operating systems. It provides a simpler and more enjoyable experience for browsing, searching and managing your computer.
 
 ![ukui3.0](https://www.ukui.org/images/feature_li1.png)
 
