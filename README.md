@@ -14,6 +14,11 @@ UKUI is a desktop environment for Linux distributions and other UNIX-like operat
 sudo apt install ukui-desktop-environment
 ```
 
+Or you can get the latest version by:
+```
+$ sudo add-apt-repository ppa:ubuntukylin-members/ukui3.0
+$ sudo apt upgrade
+
 ### Debian buster (UKUI 2.0)
 ```
 sudo apt install ukui-session-manager ukui-menu ukui-control-center ukui-settings-daemon ukui-window-switch ukui-media ukui-power-manager peony ukui-themes ukui-greeter kylin-display-switch
