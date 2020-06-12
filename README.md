@@ -14,10 +14,24 @@ UKUI is a desktop environment for Linux and other Unix-like Distributions. It pr
 sudo apt install ukui-desktop-environment
 ```
 
-### Debian
+### Debian buster (UKUI 2.0)
 ```
-sudo apt install ukui-session-manager ukui-menu ukui-sidebar ukui-control-center ukui-settings-daemon ukui-window-switch ukui-media ukui-power-manager kylin-nm qt5-ukui-platformtheme
+sudo apt install ukui-session-manager ukui-menu ukui-control-center ukui-settings-daemon ukui-window-switch ukui-media ukui-power-manager peony ukui-themes ukui-greeter kylin-display-switch
+sudo pip3 install requests
+gsettings set org.mate.interface gtk-theme 'ukui-black'
+gsettings set org.mate.interface icon-theme 'ukui-icon-theme'
 ```
+
+### Debian unstable (UKUI 3.0)
+sudo apt install ukui-session-manager ukui-menu ukui-control-center ukui-settings-daemon ukui-window-switch ukui-media ukui-power-manager peony ukui-themes ukui-greeter kylin-display-switch ukui-sidebar qt5-ukui-platfromtheme kylin-nm
+gsettings set org.mate.interface gtk-theme 'ukui-black'
+gsettings set org.ukui.style icon-theme-name 'ukui-icon-theme-default'
+
+### Arch
+
+### Fedora
+
+### openEuler
 
 ## Upgrade
 ```
