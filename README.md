@@ -35,6 +35,10 @@ gsettings set org.ukui.style icon-theme-name 'ukui-icon-theme-default'
 ```
 
 ### Arch
+```
+sudo pacman -S ukui xorg-server
+sudo systemctl enable lightdm
+```
 
 ### Fedora
 In progress...
