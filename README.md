@@ -18,6 +18,7 @@ Or you can get the latest version by:
 ```
 $ sudo add-apt-repository ppa:ubuntukylin-members/ukui3.0
 $ sudo apt upgrade
+```
 
 ### Debian buster (UKUI 2.0)
 ```
