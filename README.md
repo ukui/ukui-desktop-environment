@@ -23,15 +23,19 @@ gsettings set org.mate.interface icon-theme 'ukui-icon-theme'
 ```
 
 ### Debian unstable (UKUI 3.0)
+```
 sudo apt install ukui-session-manager ukui-menu ukui-control-center ukui-settings-daemon ukui-window-switch ukui-media ukui-power-manager peony ukui-themes ukui-greeter kylin-display-switch ukui-sidebar qt5-ukui-platfromtheme kylin-nm
 gsettings set org.mate.interface gtk-theme 'ukui-black'
 gsettings set org.ukui.style icon-theme-name 'ukui-icon-theme-default'
+```
 
 ### Arch
 
 ### Fedora
+In progress...
 
 ### openEuler
+In progress...
 
 ## Upgrade
 ```
