@@ -1,3 +1,10 @@
+ukui-desktop-environment (2.0.3) groovy; urgency=medium
+
+  * debian/control: remove the dependency on gvfs-bin, which was removed in
+    groovy
+
+ -- Olivier Tilloy <olivier.tilloy@canonical.com>  Wed, 16 Sep 2020 17:37:19 +0200
+
 ukui-desktop-environment (2.0.2) focal; urgency=medium
 
   * debian/control: add qt5-ukui-platformtheme to depends.
