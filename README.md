@@ -7,6 +7,41 @@ UKUI is a desktop environment for Linux distributions and other UNIX-like operat
 ## Homepage
 [UKUI Homepage](https://www.ukui.org)
 
+## Components
+### Core
+* peony
+* peony-extensions
+* ukui-menu
+* ukui-panel
+* ukui-sidebar
+* ukui-media
+* ukui-greeter
+* ukui-screensaver
+* ukui-session-manager
+* ukui-control-center
+* ukui-settings-deamon
+* ukui-power-manager
+* kylin-nm
+* ukui-biometric-auth
+* ukui-kwin
+* ukwm (Used when ukui-kwin is not available, and the side effect is no Gaussian blur)
+* ukui-window-switch
+* qt5-ukui-platformtheme
+* ukui-themes (Or ubuntukylin-theme)
+* ukui-wallpapers (Or ubuntukylin-wallpapers)
+
+### Optional
+* kylin-display-switch
+* ukui-notification-daemon
+* ukui-biometric-manager
+* ukui-system-monitor
+* libinput-touch-translator
+* biometric-authentication
+
+### Deprecated
+* ukui-menus
+* ukui-indicators
+
 ## Install
 
 ### Ubuntu
@@ -16,7 +51,7 @@ sudo apt install ukui-desktop-environment
 
 Or you can get the latest version by:
 ```
-$ sudo add-apt-repository ppa:ubuntukylin-members/ukui3.0
+$ sudo add-apt-repository ppa:ubuntukylin-members/ukui
 $ sudo apt upgrade
 ```
 
