@@ -2,8 +2,8 @@
 font-name='Noto Sans CJK SC 11'
 document-font-name='Noto Sans CJK SC 11'
 monospace-font-name='DejaVu sans Mono 11'
-gtk-theme='ukui-white'
-icon-theme='ukui-icon-theme-default'
+gtk-theme='ukui'
+icon-theme='ukui'
 
 [org.gnome.desktop.wm.preferences]
 mouse-button-modifier='<Alt>'
