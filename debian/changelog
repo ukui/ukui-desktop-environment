@@ -1,3 +1,9 @@
+ukui-desktop-environment (3.0.0) impish; urgency=medium
+
+  * New release.
+
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Fri, 06 Aug 2021 16:25:39 +0800
+
 ukui-desktop-environment (2.0.3) groovy; urgency=medium
 
   * debian/control: remove the dependency on gvfs-bin, which was removed in
