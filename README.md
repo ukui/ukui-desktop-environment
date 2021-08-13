@@ -89,4 +89,4 @@ sudo apt upgrade
 ```
 
 ## Issues
-[UKUI issue](www.github.com/ukui/ukui-desktop-environment/issues)
+[UKUI issue](https://www.github.com/ukui/ukui-desktop-environment/issues)
