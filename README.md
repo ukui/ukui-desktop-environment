@@ -19,7 +19,7 @@ UKUI is a desktop environment for Linux distributions and other UNIX-like operat
 * ukui-screensaver
 * ukui-session-manager
 * ukui-control-center
-* ukui-settings-deamon
+* ukui-settings-daemon
 * ukui-power-manager
 * kylin-nm
 * ukui-biometric-auth
