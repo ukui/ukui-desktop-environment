@@ -57,13 +57,15 @@ Recommends: atril,
             ukui-notification-daemon,
             ukui-power-manager,
             ukui-screensaver,
+            ukui-window-switch,
             mate-utils,
             pluma,
             qt5-ukui-platformtheme,
+            kylin-nm,
+            kylin-display-switch,
 Suggests: mail-reader | thunderbird,
           network-manager-gnome,
           x-www-browser | firefox,
-          kylin-nm,
 Description: UKUI Desktop Environment (metapackage)
  The UKUI Desktop Environment is the continuation of MATE. It provides an
  intuitive and attractive desktop environment using traditional metaphors for

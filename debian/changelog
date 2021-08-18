@@ -1,8 +1,10 @@
 ukui-desktop-environment (3.0.0) impish; urgency=medium
 
-  * New release.
+  * Update README.
+  * debian/control: add ukui-window-switch, kylin-display-switch,
+    kylin-nm to depends.
 
- -- handsome_feng <jianfengli@ubuntukylin.com>  Fri, 06 Aug 2021 16:25:39 +0800
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Wed, 18 Aug 2021 16:07:09 +0800
 
 ukui-desktop-environment (2.0.3) groovy; urgency=medium
 
