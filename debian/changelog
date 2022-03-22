@@ -1,14 +1,9 @@
-ukui-desktop-environment (3.0.2.1) jammy; urgency=medium
+ukui-desktop-environment (3.0.1) jammy; urgency=medium
 
-  * debian/control: delet kylin-display-switch
+  * debian/control: drop kylin-display-switch since
+    ukui-settings-daemon (>=3.1.1) took over the function.
 
- -- Kevin Duan <duankaiwen@kylinos.cn>  Mon, 07 Mar 2022 10:48:15 +0800
-
-ukui-desktop-environment (3.0.2) jammy; urgency=medium
-
-  * New upstream release.
-
- -- Kevin Duan <duankaiwen@kylinos.cn>  Tue, 01 Mar 2022 14:48:16 +0800
+ -- handsome_feng <jianfengli@ubuntukylin.com>  Tue, 22 Mar 2022 11:49:32 +0800
 
 ukui-desktop-environment (3.0.0) impish; urgency=medium
 

@@ -31,7 +31,7 @@ UKUI is a desktop environment for Linux distributions and other UNIX-like operat
 * ukui-wallpapers (Or ubuntukylin-wallpapers)
 
 ### Optional
-* kylin-display-switch
+* kylin-display-switch (No need with ukui-settings-daemon >=3.1.1)
 * ukui-notification-daemon
 * ukui-biometric-manager
 * ukui-system-monitor
