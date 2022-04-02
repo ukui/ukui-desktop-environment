@@ -46,34 +46,34 @@ UKUI is a desktop environment for Linux distributions and other UNIX-like operat
 
 ### Ubuntu
 ```
-$ sudo apt install ukui-desktop-environment
+sudo apt install ukui-desktop-environment
 ```
 
 Or you can get the latest version by:
 ```
-$ sudo add-apt-repository ppa:ubuntukylin-members/ukui
-$ sudo apt upgrade
+sudo add-apt-repository ppa:ubuntukylin-members/ukui
+sudo apt upgrade
 ```
 
 ### Debian buster (UKUI 2.0)
 ```
-$ sudo apt install ukui-session-manager ukui-menu ukui-control-center ukui-settings-daemon ukui-window-switch ukui-media ukui-power-manager peony ukui-themes ukui-greeter kylin-display-switch
-$ sudo pip3 install requests
-$ gsettings set org.mate.interface gtk-theme 'ukui-black'
-$ gsettings set org.mate.interface icon-theme 'ukui-icon-theme'
+sudo apt install ukui-session-manager ukui-menu ukui-control-center ukui-settings-daemon ukui-window-switch ukui-media ukui-power-manager peony ukui-themes ukui-greeter kylin-display-switch
+sudo pip3 install requests
+gsettings set org.mate.interface gtk-theme 'ukui-black'
+gsettings set org.mate.interface icon-theme 'ukui-icon-theme'
 ```
 
 ### Debian bulleye (UKUI 3.0)
 ```
-$ sudo apt install ukui-session-manager ukui-menu ukui-control-center ukui-settings-daemon ukui-window-switch ukui-media ukui-power-manager peony ukui-themes ukui-greeter kylin-display-switch ukui-sidebar qt5-ukui-platformtheme kylin-nm ukui-wallpapers
-$ gsettings set org.mate.interface gtk-theme 'ukui-black'
-$ gsettings set org.ukui.style icon-theme-name 'ukui-icon-theme-default'
+sudo apt install ukui-session-manager ukui-menu ukui-control-center ukui-settings-daemon ukui-window-switch ukui-media ukui-power-manager peony ukui-themes ukui-greeter kylin-display-switch ukui-sidebar qt5-ukui-platformtheme kylin-nm ukui-wallpapers
+gsettings set org.mate.interface gtk-theme 'ukui-black'
+gsettings set org.ukui.style icon-theme-name 'ukui-icon-theme-default'
 ```
 
 ### Arch
 ```
-$ sudo pacman -S ukui xorg-server
-$ sudo systemctl enable lightdm
+sudo pacman -S ukui xorg-server
+sudo systemctl enable lightdm
 ```
 
 ### Fedora
